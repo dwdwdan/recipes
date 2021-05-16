@@ -8,5 +8,6 @@ defaults:
     path: ""
   values:
     layout: "default"
-url: dwdwdan.github.io
-baseurl: /recipes
+url: "dwdwdan.github.io"
+baseurl: recipes/
+permalink: /:title
