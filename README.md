@@ -9,7 +9,9 @@ an appropriate name for your recipe.
 
 The file has to start with the frontmatter
 ```yaml
+---
 title: Recipe Name
+---
 ```
 After this you have freedome to use markdown however you wish, but you should try to follow a similar style to the posts
 already in the `_posts` folder.
