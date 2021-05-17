@@ -1,3 +1,27 @@
-.current {
-	color: green;
+* {
+	font-family:sans-serif;
+	background-color: #333333;
+	color: #eeeeee;
+}
+
+ul#navmenu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	background-color: #555555;
+}
+#navmenu li{
+	display: inline;
+	background-color: transparent;
+}
+#navmenu a{
+	padding: 10px 20px;
+	margin: 0px 5px;
+	background-color: #666666;
+	color: #eeeeee;
+	text-decoration: none;
+	font-size: 20px;
+}
+#navmenu a:hover{
+	background-color:#444444;
 }
