@@ -1,4 +1,10 @@
 ---
+title: Tikka Flatbreads
+author: Dan
+shortDesc: >-
+  This recipe came from when my kofta's fell apart - I still haven't made them properly!
+  I ended up just putting the mince mixture onto flatbreads and this is what I ended up with
+  It's quite tasty
 ---
 
 # Ingredients
