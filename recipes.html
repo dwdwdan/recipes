@@ -3,8 +3,9 @@ title: Blog
 ---
 <h1>Latest Recipes</h1>
 	{% for post in site.posts %}
-		<div class="recipeSection">
-			<h2 class="recipeLink"><a href="{{post.url | prepend:site.baseurl }}">{{post.title}}</a></h2>
+		<h2 class="recipeLink"><a href="{{post.url | prepend:site.baseurl }}">{{post.title}}</a></h2>
+		<div class="recipeDetails">
+		<i>{{post.date|date_to_string}} - {{post.author}}</i>
 			<p>{{post.shortDesc | markdownify}}</p>
 		</div>
 	{% endfor %}
