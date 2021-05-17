@@ -2,11 +2,9 @@
 title: Blog
 ---
 <h1>Latest Recipes</h1>
-<ul>
 	{% for post in site.posts %}
-		<li>
-			<h2><a href="{{post.url | prepend:site.baseurl }}">{{post.title}}</a></h2>
-			{{post.excerpt}}
-		</li>
+		<div class="recipeSection">
+			<h2 class="recipeLink"><a href="{{post.url | prepend:site.baseurl }}">{{post.title}}</a></h2>
+			<p>{{post.shortDesc | markdownify}}</p>
+		</div>
 	{% endfor %}
-</ul>

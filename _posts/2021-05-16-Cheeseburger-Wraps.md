@@ -1,4 +1,6 @@
 ---
+shortDesc: Title says it all really! Cheeseburgers, but in a wrap
+author: Dan
 ---
 
 # Ingredients
