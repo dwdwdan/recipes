@@ -22,7 +22,7 @@ shortDesc: A short description of the recipe. This can be written in markdown bu
 After this you have freedom to use markdown however you wish, but you should try to follow a similar style to the posts
 already in the `_posts` folder.
 
-## Recipe Guidlines
+## Recipe Guidelines
 
 The general form should be something similar to
 ```
