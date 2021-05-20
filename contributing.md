@@ -1,12 +1,17 @@
 ---
 title: Contributing
 ---
+# Contributing
+
+To contribute, please submit a pull request to [this github repo](https://github.com/dwdwdan/recipes)
+or email me at [dwdwdan@gmail.com](mailto:dwdwdan@gmail.com).
+
 Contribution must be added to the `_posts` folder with the name `YYYY-MM-DD-Post-Title.md`, replacing the post title with
 an appropriate name for your recipe.
 
 The file has to start with the frontmatter
 
-```yaml
+```
 ---
 title: Recipe Name
 author: Author Name
