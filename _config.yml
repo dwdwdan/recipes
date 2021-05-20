@@ -10,4 +10,10 @@ defaults:
     layout: "default"
 url: "dwdwdan.github.io"
 baseurl: /recipes
-permalink: /:title
+
+plugins:
+  - jekyll-feed
+
+title: "Dan's Recipes"
+description: "Where I store and collate recipes"
+url: "https://dwdwdan.github.io/recipes/"
