@@ -1,9 +1,10 @@
 ---
+title: Cheeseburger Wraps
 shortDesc: Title says it all really! Cheeseburgers, but in a wrap
 author: Dan
 ---
 
-# Ingredients
+## Ingredients
 - 1 Red Onion
 - 350g Beef Mince
 - 1 tbsp Tomato Ketchup
@@ -13,7 +14,7 @@ author: Dan
 - Lettuce, Shredded
 - Tomatoes, Chunked
 
-# Method
+## Method
 1. Fry the onion for 5 minutes until slightly softened
 2. Add mince and cook until browned
 3. Add Tomato Ketchup and Worcester Sauce
