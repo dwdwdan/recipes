@@ -1,5 +1,19 @@
 ---
 title: Home
 ---
-	<h1> {{"Hello World!"|downcase}} </h1>
-Some content
+<h1>Dan's Recipes</h1>
+
+Welcome to my website, where I'm hosting recipes.
+Feel free to send a pull request if you want to submit a recipe (see <a href="{{site.baseurl}}/contributing.html">contributing</a>).
+If you want to see all the new recipes as they are released subscribe to my <a href="{{site.baseurl}}/feed.xml">RSS feed</a>
+
+<h2>Latest Recipes</h2>
+{% for post in site.posts %}
+	<h3 class="recipeLink"><a href="{{post.url | prepend:site.baseurl }}">{{post.title}}</a></h3>
+	<div class="recipeDetails">
+	<i>{{post.date|date_to_string}} - {{post.author}}</i>
+		<p>{{post.shortDesc | markdownify}}</p>
+	</div>
+{% endfor %}
+
+

@@ -1,6 +1,11 @@
 * {
 	font-family:sans-serif;
+}
+body {
 	background-color: #333333;
+	color: #eeeeee;
+}
+a {
 	color: #eeeeee;
 }
 
@@ -34,6 +39,10 @@ ul#navmenu {
 }
 p.byline{
 	font-style: italic;
+}
+
+#footer a{
+	color: #eeeeee
 }
 
 #footer{
