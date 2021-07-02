@@ -1,19 +1,27 @@
+:root {
+	--primary-bg-color: #282a36;
+	--secondary-bg-color: #2D303D;
+	--tertiary-bg-color: #44475a;
+	--hover-bg-color: #36394A;
+	--primary-fg-color: #f8f8f2;
+}
+
 * {
 	font-family:sans-serif;
 }
 body {
-	background-color: #333333;
-	color: #eeeeee;
+	background-color: var(--primary-bg-color);
+	color: var(--primary-fg-color);
 }
 a {
-	color: #eeeeee;
+	color: var(--primary-fg-color);
 }
 
 ul#navmenu {
 	list-style-type: none;
 	margin: 0px;
 	padding: 10px;
-	background-color: #555555;
+	background-color: var(--secondary-bg-color);
 }
 #navmenu li{
 	display: inline;
@@ -22,13 +30,13 @@ ul#navmenu {
 #navmenu a{
 	padding: 10px 20px;
 	margin: 0px 5px;
-	background-color: #666666;
-	color: #eeeeee;
+	background-color: var(--tertiary-bg-color);
+	color: var(--primary-fg-color);
 	text-decoration: none;
 	font-size: 20px;
 }
 #navmenu a:hover{
-	background-color:#444444;
+	background-color: var(--hover-bg-color);
 }
 
 .recipeLink a{
@@ -42,7 +50,7 @@ p.byline{
 }
 
 #footer a{
-	color: #eeeeee
+	color: var(--primary-fg-color);
 }
 
 #footer{
