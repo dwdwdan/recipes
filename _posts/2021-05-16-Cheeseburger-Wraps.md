@@ -2,6 +2,7 @@
 title: Cheeseburger Wraps
 shortDesc: Title says it all really! Cheeseburgers, but in a wrap
 author: Dan
+serves: 3
 ---
 
 ## Ingredients
