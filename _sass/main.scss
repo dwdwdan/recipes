@@ -10,8 +10,15 @@
 	font-family:sans-serif;
 }
 body {
+	background-color: var(--secondary-bg-color);
+	color: var(--tertiary-fg-color);
+	margin: 0px;
+}
+
+.siteBody {
 	background-color: var(--primary-bg-color);
 	color: var(--primary-fg-color);
+	padding: 5px 0px;
 }
 a {
 	color: var(--primary-fg-color);
@@ -53,8 +60,14 @@ p.byline{
 	color: var(--primary-fg-color);
 }
 
+#footer hr{
+	border-color: var(--tertiary-bg-color);
+}
+
 #footer{
-	position: absolute;
+	position: static;
 	bottom: 0;
-	padding: 10px 0px
+	margin: 10px 0px;
+	background-color: var(--secondary-bg-color);
+	color: var(--primary-fg-color);
 }
