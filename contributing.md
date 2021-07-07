@@ -16,6 +16,7 @@ The file has to start with the frontmatter
 title: Recipe Name
 author: Author Name
 shortDesc: A short description of the recipe. This can be written in markdown but try to keep it to a minimum
+serves: number that the recipe serves
 ---
 ```
 
