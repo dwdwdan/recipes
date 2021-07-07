@@ -2,6 +2,7 @@
 title: Mushrooms on Toast
 shortDesc: Mushrooms on Toast with plenty of garlic
 author: Dan
+serves: 2
 ---
 
 ## Ingredients
