@@ -8,8 +8,8 @@ defaults:
     path: ""
   values:
     layout: "default"
-url: "dwdwdan.github.io"
-baseurl: /recipes
+url: "recipes.dwdwdan.xyz"
+baseurl:
 
 plugins:
   - jekyll-feed
