@@ -6,13 +6,15 @@
 	--primary-fg-color: #f8f8f2;
 }
 
-* {
-	font-family:sans-serif;
-}
 body {
 	background-color: var(--secondary-bg-color);
 	color: var(--tertiary-fg-color);
 	margin: 0px;
+	font-family:sans-serif;
+}
+
+a {
+	text-decoration: none;
 }
 
 .siteBody {
@@ -32,35 +34,34 @@ ul#navmenu {
 }
 #navmenu li{
 	display: inline;
-	background-color: transparent;
 }
+
 #navmenu a{
 	padding: 10px 20px;
 	margin: 0px 5px;
 	background-color: var(--tertiary-bg-color);
-	color: var(--primary-fg-color);
-	text-decoration: none;
 	font-size: 20px;
 }
+
 #navmenu a:hover{
 	background-color: var(--hover-bg-color);
 }
 
-.recipeLink a{
-	text-decoration: none;
-}
 .recipeDetails{
 	margin: 0px 10px;
 }
+
 p.byline{
 	font-style: italic;
 }
+
 p.serves{
 	font-style: italic;
 }
 
 #footer a{
 	color: var(--primary-fg-color);
+	text-decoration: underline;
 }
 
 #footer hr{
