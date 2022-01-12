@@ -23,7 +23,11 @@ body {
 	background-color: var(--primary-bg-color);
 	color: var(--primary-fg-color);
 	padding: 5px 20px;
+	margin-top: 20px;
 	width: var(--site-width);
+	border: 5px solid;
+	border-radius: 50px;
+	border-color: var(--highlight-color);
 }
 
 a {
