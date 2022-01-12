@@ -1,6 +1,4 @@
-- name: Home
-  link: /
-- name: Recipes
-  link: /recipes.html
 - name: Contribute
   link: /contributing.html
+- name: Github
+  link: https://github.com/dwdwdan/recipes

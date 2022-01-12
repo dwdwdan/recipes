@@ -1,66 +1,99 @@
 :root {
-	--primary-bg-color: #282a36;
-	--secondary-bg-color: #2D303D;
-	--tertiary-bg-color: #44475a;
-	--hover-bg-color: #36394A;
+	--primary-bg-color: #383836;
+	--secondary-bg-color: #262625;
+	--tertiary-bg-color: #383836;
+	--hover-bg-color: #5E5E5E;
 	--primary-fg-color: #f8f8f2;
+	--highlight-color: #A67DAD;
+	--site-width: 90%;
 }
 
-* {
-	font-family:sans-serif;
-}
 body {
 	background-color: var(--secondary-bg-color);
-	color: var(--tertiary-fg-color);
+	color: var(--primary-fg-color);
 	margin: 0px;
+	font-family:sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
 
 .siteBody {
 	background-color: var(--primary-bg-color);
 	color: var(--primary-fg-color);
-	padding: 5px 0px;
+	padding: 5px 20px;
+	margin-top: 20px;
+	width: var(--site-width);
+	border: 5px solid;
+	border-radius: 50px;
+	border-color: var(--highlight-color);
 }
+
 a {
 	color: var(--primary-fg-color);
+	text-decoration: none;
 }
 
-ul#navmenu {
+#navmenu{
+	width: var(--site-width);
+	display: flex;
+	justify-content: space-between;
+}
+
+#pagetitle a{
+	padding: 10px 20px;
+	display: flex;
+	background-color: var(--tertiary-bg-color);
+	margin: 10px 0px;
+	border: 5px solid;
+	border-color: var(--highlight-color);
+	border-radius: 20px;
+}
+
+
+#pagetitle h1{
+	margin: auto;
+}
+
+#navmenu ul{
 	list-style-type: none;
-	margin: 0px;
-	padding: 10px;
+	margin-left: auto;
+	padding: 10px 0px;
 	background-color: var(--secondary-bg-color);
 }
+
 #navmenu li{
 	display: inline;
-	background-color: transparent;
-}
-#navmenu a{
-	padding: 10px 20px;
-	margin: 0px 5px;
-	background-color: var(--tertiary-bg-color);
-	color: var(--primary-fg-color);
-	text-decoration: none;
-	font-size: 20px;
-}
-#navmenu a:hover{
-	background-color: var(--hover-bg-color);
 }
 
-.recipeLink a{
-	text-decoration: none;
+#navmenu ul a{
+	padding: 10px 20px;
+	margin: 0px 10px;
+	background-color: var(--tertiary-bg-color);
+	font-size: 20px;
+	border: 5px solid;
+	border-color: var(--highlight-color);
+	border-radius: 20px;
 }
+
+
+
 .recipeDetails{
 	margin: 0px 10px;
 }
+
 p.byline{
 	font-style: italic;
 }
+
 p.serves{
 	font-style: italic;
 }
 
 #footer a{
 	color: var(--primary-fg-color);
+	text-decoration: underline;
 }
 
 #footer hr{
@@ -73,4 +106,5 @@ p.serves{
 	margin: 10px 0px;
 	background-color: var(--secondary-bg-color);
 	color: var(--primary-fg-color);
+	width: var(--site-width);
 }
