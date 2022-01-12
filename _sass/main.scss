@@ -38,6 +38,21 @@ a {
 	justify-content: space-between;
 }
 
+#pagetitle a{
+	padding: 10px 20px;
+	display: flex;
+	background-color: var(--tertiary-bg-color);
+	margin: 10px 0px;
+	border: 5px solid;
+	border-color: var(--highlight-color);
+	border-radius: 20px;
+}
+
+
+#pagetitle h1{
+	margin: auto;
+}
+
 #navmenu ul{
 	list-style-type: none;
 	margin-left: auto;
@@ -51,14 +66,14 @@ a {
 
 #navmenu ul a{
 	padding: 10px 20px;
-	margin: 0px 5px;
+	margin: 0px 10px;
 	background-color: var(--tertiary-bg-color);
 	font-size: 20px;
+	border: 5px solid;
+	border-color: var(--highlight-color);
+	border-radius: 20px;
 }
 
-#navmenu ul a:hover{
-	background-color: var(--hover-bg-color);
-}
 
 
 .recipeDetails{
