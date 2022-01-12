@@ -32,27 +32,34 @@ a {
 	color: var(--primary-fg-color);
 }
 
-ul#navmenu {
+#navmenu{
+	width: var(--site-width);
+	display: flex;
+	justify-content: space-between;
+}
+
+#navmenu ul{
 	list-style-type: none;
-	margin: 0px;
+	margin-left: auto;
 	padding: 10px 0px;
 	background-color: var(--secondary-bg-color);
-	width: var(--site-width);
 }
+
 #navmenu li{
 	display: inline;
 }
 
-#navmenu a{
+#navmenu ul a{
 	padding: 10px 20px;
 	margin: 0px 5px;
 	background-color: var(--tertiary-bg-color);
 	font-size: 20px;
 }
 
-#navmenu a:hover{
+#navmenu ul a:hover{
 	background-color: var(--hover-bg-color);
 }
+
 
 .recipeDetails{
 	margin: 0px 10px;
