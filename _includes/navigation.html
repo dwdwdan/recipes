@@ -1,8 +1,8 @@
 <div id="navmenu">
   <div id="pagetitle">
-    <h1><a href="{{root_url}}/index.html">Dan's Dinners</a></h1>
+    <a href="{{root_url}}/index.html"><img src="assets/logo.png" alt="Dan's Dinners Logo" /></a>
   </div>
-  <div>
+  <div id="menus">
   <ul>
     {% for item in site.data.navigation %}
     <li><a href="{{ item.link | prepend:site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>
