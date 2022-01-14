@@ -53,9 +53,13 @@ a {
 	margin: auto;
 }
 
+#navmenu #menus{
+	display: flex;
+	align-items: center;
+}
+
 #navmenu ul{
 	list-style-type: none;
-	margin-left: auto;
 	padding: 10px 0px;
 	background-color: var(--secondary-bg-color);
 }
