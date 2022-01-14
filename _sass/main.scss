@@ -45,8 +45,8 @@ a {
 	padding: 10px 20px;
 	display: flex;
 	margin: 10px 0px;
-	height: 90px;
 }
+
 
 
 #pagetitle h1{
@@ -79,6 +79,19 @@ a {
 }
 
 
+@media (max-width: 1300px) {
+	#navmenu{
+		flex-direction: column;
+		align-content: center;
+	}
+	#navmenu img{
+		max-width: var(--site-width);
+		margin:auto;
+	}
+	#navmenu #menus{
+		margin:auto;
+	}
+}
 
 .recipeDetails{
 	margin: 0px 10px;
