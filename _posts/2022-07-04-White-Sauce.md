@@ -2,7 +2,7 @@
 title: White Sauce (Bechamel)
 author: Dan
 shortDesc: This simple white sauce can be used as a base for many other sauces, such as parsley sauce and cheese sauce, and can also be used as the white sauce in a lasagne
-serves: 4
+serves: 3
 ---
 
 ## Ingredients
