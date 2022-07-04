@@ -14,10 +14,10 @@ serves: 3
 1. Melt the butter in a saucepan, on a low heat.
 2. Add the flour and mix vigorously until it becomes dough-like, and you cannot see any flour. Cook this for 30 seconds or so to cook the flour. This is called a white roux.
 3. Add around a quarter of the milk (the precise amount doesn't matter)
-4. Using a whisk, break up the roux until you cannot seee any lumps
+4. Using a whisk, break up the roux until you cannot see any lumps
 5. Gently cook until it thickens, whisking. You should be able to run a spoon through the mix and it should not move to fill the gap.
 6. Add another quarter of the milk (1 third of what you have left)
-7. Continue whisking and gently heating unitl running a spoon through the mix leaves a trail where you can see the bottom
-8. Add the remaining milk and continue whisking until you have the desired thickness.
+7. Continue whisking and gently heating until running a spoon through the mix leaves a trail where you can see the bottom
+8. Add the remaining milk and continue whisking until you have the desired consistency.
 9. Season to taste, adding any additional ingredients to flavour the sauce (i.e. add parsley for a parsley sauce, cheese for a cheese sauce).
 10. Nom
